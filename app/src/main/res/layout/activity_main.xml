@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/imagesd"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:background="@drawable/newlogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/imagesd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/sejarah_sunda"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn"
+                android:text="Sejarah Umum Sunda"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mmedium"/>
+
+            <Button
+                android:id="@+id/glosarium"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/sejarah_sunda"
+                android:background="@drawable/btn"
+                android:text="Glosarium Budaya Sunda"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mmedium"/>
+
+            <Button
+                android:id="@+id/kuiz"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/glosarium"
+                android:background="@drawable/btn"
+                android:text="Kuiz"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mmedium"/>
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/kuiz"
+                android:background="@drawable/btn"
+                android:text="About"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mmedium"/>
+
+            <Button
+                android:id="@+id/keluar"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/about"
+                android:background="@drawable/btn"
+                android:text="Keluar"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mmedium"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".sejarah_kebudayaan"
+    >
+
+    <!--Layout-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#2d88c9"
+            android:text="SEJARAH UMUM SUNDA"
+            android:gravity="left"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingTop="7sp"
+            />
+
+        <!-- Gambar -->
+        <ImageView
+            android:layout_width="410sp"
+            android:layout_height="180sp"
+            android:layout_gravity="center"
+            android:src="@drawable/jawabarat"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:layout_margin="20sp"
+            >
+        </ImageView>
+
+        <!-- Layout Deskripsi -->
+        <WebView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </WebView>
+    </LinearLayout>
+
+
+</ScrollView>

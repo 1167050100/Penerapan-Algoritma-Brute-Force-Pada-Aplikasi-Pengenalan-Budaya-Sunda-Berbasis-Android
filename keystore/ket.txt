@@ -1,0 +1,9 @@
+Alias : key0
+pass : kebudayaansunda
+
+First and Last Name : Muhammad Diaz Aulia
+O. Unit : n/a
+O. : n/a
+city : n/a
+state : n/a
+country code : ID
